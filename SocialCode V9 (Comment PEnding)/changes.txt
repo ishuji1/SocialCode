@@ -1,0 +1,32 @@
+1. Templates :- Profile
+2. Userauth :- Views.py
+3. Templates :- Profile
+4. Userauth :- Views.py
+
+
+
+Folow Unfollow
+
+5. Socialcode :- urls.py
+6. Templates :- Profile
+
+edit profile
+
+7. Userauth :- views
+8. Userauth :- form
+9. Templates :- Edit Profile
+10. Userauth :- form
+
+// remove comment in image field in edit prfile and forms
+
+11. Templates :- Edit Profile
+
+
+
+// Comments Part
+12. startapp comment
+13. comment :- models
+13. comment :- forms
+13. post :- views
+
+

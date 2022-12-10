@@ -1,0 +1,46 @@
+{% load static%}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Code</title>
+
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href=" {% static 'index1/style.css' %} ">
+
+
+</head>
+
+<body>
+    <!-- Navigation BAr -->
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                Social Code
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search For Fellow Programmers">
+
+            </div>
+
+            <div class="create">
+                <label class="btn btn-primary" for="Create-Post">Write a Post</label>
+                <div class="profile-photo">
+                    <img src="{% static 'index1/Sachin.jpg'%}" alt="Jiten">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+{% block content %}
+{% endblock content %}
